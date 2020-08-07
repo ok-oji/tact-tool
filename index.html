@@ -14,3 +14,27 @@
 </body>
 
  </html>
+
+<script>
+function calcRankUp(form)
+{
+    if ( form.Kind.value == "K0" )
+    {
+        alert("未入力");
+        form.Kind.focus();
+        return false;
+    }
+
+
+    ResultMsg.innerHTML="【実行結果】";
+
+    Red.innerHTML = 1;
+    Blue.innerHTML = 3;
+
+    Title1.innerHTML="赤";
+    Title2.innerHTML="青";
+
+    <!-- falseで終わると入力値消さない -->
+    return false;
+}
+</script>
