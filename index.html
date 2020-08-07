@@ -11,6 +11,52 @@
 
 <img src="1F0D9CE4-1347-4E7A-9CE5-1E8E4FBC09AE.png">
 
+    <form name="RankUp" onsubmit="return calcRankUp(this)">
+    <!-- コメント -->
+        テストページ<br>
+        <hr style="height:5px; background-color:#66f; border:0">
+        Kind　　　From　　　To<br>
+　        <select name="Kind">
+              <option value="K0">　　
+              <option value="K1">スラ
+              <option value="K2">自然
+              <option value="K3">物質
+          </select>
+
+　        <select name="RankFrom">
+              <option value="S0">　
+              <option value="S1">S1
+              <option value="S2">S2
+              <option value="S3">S3
+              <option value="S5">S4
+              <option value="S4">S5
+          </select>
+
+　        <select name="RankTo">
+              <option value="S0">　
+              <option value="S1">S1
+              <option value="S2">S2
+              <option value="S3">S3
+              <option value="S5">S4
+              <option value="S4">S5
+          </select>
+
+
+
+        <br>
+        <br>
+             <input type="Submit" value="実行" button style="width:150px"></button>
+        </form>
+
+
+
+        <table border=1>
+            <caption><div id="ResultMsg"></div></caption>
+            <tr><th><div id="Title1"></th><th><div id="Title2"></th></tr>
+            <tr><td><div id="Red"></td><td><div id="Blue"></td></tr>
+        </table>
+
+
 </body>
 
  </html>
