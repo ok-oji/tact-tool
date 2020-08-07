@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=shift-jis">
+  <title>テスト</title>
+  <base target="_self">
+  <script language="VBScript">
+
+
+
+
+Sub changeInput()
+
+msgbox "test"
+
+End Sub
+
+
+  </script>
+</head>
+
+    <body>
+        <div style="text-align: left;">
+            <table>
+                <tr>
+                    <td style="FONT-SIZE:22pt;font-weight:bold;padding-left:10px;">テストページ</td>
+                </tr>
+            </table>
+            <br />
+            <br />
+
+
+
+        </div>
+
+        <div style="text-align: center;margin-top:50px;" >
+            <tr>
+                <td>
+                    <input type="button" id="btnOK" class="clsBtnSub" value="  ＯＫ  " style="height: 35px; width:150px"/>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="button" id="btnCancel" class="clsBtnSub"  value="キャンセル"  style="height: 35px; width:150px"/>
+                </td>
+            </tr>
+        </div>
+    </body>
+</html>
